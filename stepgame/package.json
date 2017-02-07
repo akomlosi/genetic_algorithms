@@ -1,0 +1,19 @@
+{
+  "name": "stepgame",
+  "version": "1.0.0",
+  "description": "AI with genetic algorithms for stepgame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akomlosi/genetic_algorithms.git"
+  },
+  "author": "Attila Komlosi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akomlosi/genetic_algorithms/issues"
+  },
+  "homepage": "https://github.com/akomlosi/genetic_algorithms#readme"
+}
