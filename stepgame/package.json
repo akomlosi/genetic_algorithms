@@ -4,7 +4,8 @@
   "description": "AI with genetic algorithms for stepgame",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha -u tdd -R spec *.test.js --compilers js:babel-core/register",
+    "build": "webpack --debug"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/akomlosi/genetic_algorithms/issues"
   },
-  "homepage": "https://github.com/akomlosi/genetic_algorithms#readme"
+  "homepage": "https://github.com/akomlosi/genetic_algorithms#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-register": "^6.22.0",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7",
+    "webpack": "^2.2.1"
+  }
 }
